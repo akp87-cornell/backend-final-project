@@ -1,0 +1,158 @@
+/* General Page Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fef8e6; /* Pastel cream */
+  color: #4b4b4b; /* Neutral gray for text */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #6d6875; /* Pastel plum */
+}
+
+/* Rating Section */
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rating span {
+  font-size: 2rem;
+  margin: 0 5px;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.rating span:hover {
+  transform: scale(1.2);
+  color: #ffde7d; /* Pastel yellow for hover */
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 15px 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #a2d2ff; /* Pastel blue */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #bde0fe; /* Lighter pastel blue */
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #a2d2ff;
+}
+
+/* Container */
+div {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff; /* White for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Apply consistent styling to both input and textarea */
+input[type="text"],
+.review-textarea {
+  font-family: 'Arial', sans-serif; /* Ensure the same font */
+  color: #4b4b4b; /* Same color as the text color for the body */
+}
+
+/* Styling for input[type="text"] */
+input[type="text"] {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #c2c7d0; /* Light border */
+  border-radius: 5px;
+  background-color: #e8eaf6; /* Soft pastel lavender */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]::placeholder {
+  color: #4b4b4b;
+}
+
+/* Styling for .review-textarea */
+.review-textarea {
+  width: 100%; /* Full width of the parent container */
+  height: 150px; /* Adjust this height as needed */
+  padding: 8px;
+  border: 1px solid #c2c7d0;
+  border-radius: 5px;
+  background-color: #e8eaf6;
+  font-size: 1rem;
+  color: #4b4b4b; /* Make sure it matches the input field */
+  box-sizing: border-box;
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+  transition: border-color 0.3s;
+}
+
+.review-textarea::placeholder {
+  color: #4b4b4b;
+}
+
+.review-textarea:focus {
+  outline: none;
+  border-color: #007bff; /* Blue outline on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+
+/* General styling for the review container */
+.review {
+  display: flex;
+  flex-direction: column; /* Stack the review name, rating, and message vertically */
+  margin-bottom: 1rem; /* Add spacing between reviews */
+  padding: 1rem;
+  border: 1px solid #c2c7d0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  word-wrap: break-word; /* Break long words to wrap text */
+  overflow-wrap: break-word; /* Ensure text wraps properly */
+  white-space: normal; /* Allow wrapping */
+}
+
+/* Styling for the review name and rating */
+.review p {
+  margin: 0.5rem 0; /* Space between paragraphs */
+  font-size: 1rem; /* Adjust text size */
+  line-height: 1.5; /* Improve readability */
+}
+
+/* Emphasize the review name */
+.review p b {
+  color: #333;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+/* Styling for the review message */
+.review-message {
+  color: #4b4b4b;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}

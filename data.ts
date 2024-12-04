@@ -1,0 +1,257 @@
+export const studyspaces: {
+    id: number; 
+    name: string;
+    campus?: string;
+    hall?: string;
+    floor?: number;
+    rating?: number;
+}[] = [
+    {
+        id: 0,
+        name: "3rd Floor Barton Hall",
+        campus: "North",
+        hall: "Barton",
+        floor: 3,
+        rating: 3.5,
+    },
+    {
+        id: 1,
+        name: "3rd Floor Donlon",
+        campus: "North",
+        hall: "Donlon",
+        floor: 3,
+        rating: 4.2,
+    },
+    {
+        id: 2,
+        name: "3rd Floor Dickson",
+        campus: "North",
+        hall: "Dickson",
+        floor: 3,
+        rating: 2.1,
+    },
+    {
+        id: 3,
+        name: "3rd Floor Hu Shih",
+        campus: "North",
+        hall: "Hu Shih",
+        floor: 3,
+        rating: 4.9,
+    },
+    {
+        id: 4,
+        name: "3rd Floor RBG",
+        campus: "North",
+        hall: "RBG",
+        floor: 3,
+        rating: 3.5,
+    },
+    {
+        id: 5,
+        name: "1st Floor Barton Hall",
+        campus: "Central",
+        hall: "Barton",
+        floor: 1,
+        rating: 3.2,
+    },
+    {
+        id: 6,
+        name: "1st Floor Cascadilla",
+        campus: "South",
+        hall: "Cascadilla",
+        floor: 1,
+        rating: 2,
+    },
+    {
+        id: 7,
+        name: "1st Floor Dickson",
+        campus: "North",
+        hall: "Dickson",
+        floor: 1,
+        rating: 3.5,
+    },
+    {
+        id: 8,
+        name: "1st Floor Hu Shih",
+        campus: "North",
+        hall: "Hu Shih",
+        floor: 1,
+        rating: 3.5,
+    },
+    {
+        id: 9,
+        name: "1st Floor Baker Hall",
+        campus: "West",
+        hall: "Backer",
+        floor: 1,
+        rating: 3.5,
+    },
+    {
+        id: 10,
+        name: "2nd Floor Barton Hall",
+        campus: "Central",
+        hall: "Barton",
+        floor: 2,
+        rating: 3.5,
+    },
+    {
+        id: 11,
+        name: "2nd Floor Donlon",
+        campus: "North",
+        hall: "Donlon",
+        floor: 2,
+        rating: 3.5,
+    },
+    {
+        id: 12,
+        name: "2nd Floor Dickson",
+        campus: "North",
+        hall: "Dickson",
+        floor: 2,
+        rating: 3.5,
+    },
+    {
+        id: 13,
+        name: "2nd Floor Hu Shih",
+        campus: "North",
+        hall: "Hu Shih",
+        floor: 2,
+        rating: 3.5,
+    },
+    {
+        id: 14,
+        name: "2nd Floor RBG",
+        campus: "North",
+        hall: "RBG",
+        floor: 2,
+        rating: 3.5,
+    },
+    {
+        id: 15,
+        name: "4th Floor Barton Hall",
+        campus: "Central",
+        hall: "Barton",
+        floor: 4,
+        rating: 3.5,
+    },
+    {
+        id: 16,
+        name: "4th Floor Donlon",
+        campus: "North",
+        hall: "Donlon",
+        floor: 4,
+        rating: 3.5,
+    },
+    {
+        id: 17,
+        name: "4th Floor Dickson",
+        campus: "North",
+        hall: "Dickson",
+        floor: 4,
+        rating: 3.5,
+    },
+    {
+        id: 18,
+        name: "4th Floor Hu Shih",
+        campus: "North",
+        hall: "Hu Shih",
+        floor: 4,
+        rating: 3.5,
+    },
+    {
+        id: 19,
+        name: "4th Floor RBG",
+        campus: "North",
+        hall: "RBG",
+        floor: 4,
+        rating: 3.5,
+    },
+    {
+        id: 20,
+        name: "5th Floor Barton Hall",
+        campus: "Central",
+        hall: "Barton",
+        floor: 5,
+        rating: 3.5,
+    },
+    {
+        id: 21,
+        name: "5th Floor Donlon",
+        campus: "North",
+        hall: "Donlon",
+        floor: 5,
+        rating: 3.5,
+    },
+    {
+        id: 22,
+        name: "5th Floor Dickson",
+        campus: "North",
+        hall: "Dickson",
+        floor: 5,
+        rating: 3.5,
+    },
+    {
+        id: 23,
+        name: "5th Floor Hu Shih",
+        campus: "North",
+        hall: "Hu Shih",
+        floor: 5,
+        rating: 3.5,
+    }
+];
+
+export const reviews: {
+    room_id: number; 
+    name: string;
+    rating: number;
+    message?: string;
+}[] = [
+    {
+        room_id: 0,
+        name: "TestName",
+        rating: 4,
+        message: "TestMessage",
+    },
+    {
+        room_id: 0,
+        name: "TestName1",
+        rating: 5,
+        message: "TestMessage1",
+    },
+    {
+        room_id: 1,
+        name: "TestName",
+        rating: 4,
+        message: "TestMessage",
+    },
+    {
+        room_id: 2,
+        name: "TestName1",
+        rating: 5,
+        message: "TestMessage1",
+    },
+    {
+        room_id: 3,
+        name: "TestName",
+        rating: 4,
+        message: "TestMessage",
+    },
+    {
+        room_id: 4,
+        name: "TestName1",
+        rating: 5,
+        message: "TestMessage1",
+    },
+    {
+        room_id: 5,
+        name: "TestName",
+        rating: 4,
+        message: "TestMessage",
+    },
+    {
+        room_id: 6,
+        name: "TestName1",
+        rating: 5,
+        message: "TestMessage1",
+    },
+];
